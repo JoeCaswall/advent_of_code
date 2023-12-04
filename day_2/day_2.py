@@ -3,7 +3,6 @@ Each time you play this game, he will hide a secret number of cubes of each colo
 and your goal is to figure out information about the number of cubes."""
 
 from pathlib import Path
-import json
 
 path = Path("input.txt")
 contents = path.read_text()
