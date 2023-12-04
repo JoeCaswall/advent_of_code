@@ -1,4 +1,5 @@
 """Courtesy of instructor kieran"""
+from pathlib import Path
 
 path = Path(__file__).parents[1] / "1-1_puzzle_input.txt"
 contents = path.read_text()
